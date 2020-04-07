@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Online</title>
+    <link rel="shortcut icon" href="images/resume-icon-png-19033-Windows.ico">
+    <!--Bootstrap CSS & JS-->
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <style src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!--Font Awesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Merryweather" rel="stylesheet"> 
+	<!--RESPONSIVESLIDES-->
+	<link rel="stylesheet" href="js/ResponsiveSlides/responsiveslides.css">
+	<script type="text/javascript" src="js/ResponsiveSlides/responsiveslides.js"></script>
+    <!--Style dan JS Sendiri-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script>
+            $(function () {
+            // Slideshow 1
+                $("#slider2").responsiveSlides({
+                auto: false,
+                pager: true,
+                speed: 300,
+                maxwidth: 700
+                });
+            })
+    </script>
+</head>
+<body>
+    
+  <!--List Nav-->
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top fadeInStart">
+        <a class="navbar-brand d-none d-md-block scroll-top" href="#">MY RESUME</a>
+        <a class="navbar-brand d-block d-md-none scroll-top" href="#">RESUME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link scroll-link" href="#" data-id="profile">Curiculum Vitae</a>
+            </li>
+                <a class="nav-link scroll-link" href="#"data-id="contact">Hubungi</a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+
+    <!--Ringkasan-->
+    
+    <div id="sekilas" class="container-fluid fadeInStart">	
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div class="jumbotron">
+					<div class="container">
+						<div class="row">
+                            <div class="col-md-4">
+                                <img class=" profilepict" src="images/Tommy_Gunawan.jpg" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Sekilas tentang saya.</h3>
+						        <p>Menggeluti dunia Akutansi lebih dari lima tahun, dan memiliki ketertarikan di dunia <i>programming</i>, khususnya <i> web design</i>.</p>
+						        <button class="btn btn-warning scroll-link" data-id="profile">Lebih Lanjut</button>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+    </div>
+  
+    <!--Isi CV Saya-->
+  
+    <div id="profile" class="container-fluid page-section">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div class="container">
+              <h3>Curiculum Vitae</h3>
+              <ul class="rslides" id="slider2">
+                  <li>
+                      <h3 class="text-center">Profil Pribadi</h3>
+                      <table class="table table-striped table-light center">
+                          <!--<thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">First</th>
+                              <th scope="col">Last</th>
+                              <th scope="col">Handle</th>
+                            </tr>
+                          </thead>-->
+                          <tbody>
+                            <tr>
+                              <th width="200px">Nama</th>
+                              <td>Tommy Gunawan</td>
+                            </tr>
+                            <tr>
+                              <th>Tempat/Tgl Lahir</th>
+                              <td>Jakarta/21 Juli 1990</td>
+                            </tr>
+                            <tr>
+                              <th>Tinggi/Berat</th>
+                              <td>170cm/80kg</td>
+                            </tr>
+                            <tr>
+                              <th>Agama</th>
+                              <td>Katholik</td>
+                            </tr>
+                            <tr>
+                              <th >Status</th>
+                              <td>Single</td>
+                            </tr>
+                            <tr>
+                              <th >Alamat</th>
+                              <td>Jl Sunan Bonang V, Blok SJ5, No. 11A, RW02, RT03, Kel. Bonang, Kec. Kelapa Dua, Kab. Tangerang.</td>
+                            </tr>
+                            <tr>
+                              <th>No. Telepon</th>
+                              <td>081289319257</td>
+                            </tr>
+                            <tr>
+                              <th>Email</th>
+                              <td>tommygunawan@rocketmail.com</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br><br>    
+                  </li>
+                  <li>
+                    <h3 class="text-center">Riwayat Pendidikan</h3>
+                    <table class="table table-striped table-light center">
+                        <thead>
+                          <tr>
+                            <th colspan="2">Pendidikan Formal</th>
+                            <!--<th></th>-->
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th width="200px">1996-2002</th>
+                            <td>SD Bethel</td>
+                          </tr>
+                          <tr>
+                            <th>2002-2005</th>
+                            <td>SMP Bethel</td>
+                          </tr>
+                          <tr>
+                            <th>2005-2008</th>
+                            <td>SMA Buddhi</td>
+                          </tr>
+                          <tr>
+                            <th>2008-2012</th>
+                            <td>STMIK Buddhi</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="table table-striped table-light center">
+                        <thead>
+                          <tr>
+                            <th colspan="2">Pendidikan Informal</th>
+                            <!--<th></th>-->
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th width="200px">2009</th>
+                            <td>Kursus Akutansi Dasar</td>
+                          </tr>
+                          <tr>
+                            <th>2010</th>
+                            <td>Kursus Web E-Commerce</td>
+                          </tr>
+                          <tr>
+                            <th>2020</th>
+                            <td>Kursus Web Design - Front End Development</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                  </li>
+                  <li>
+                    <h3 class="text-center">Pengalaman Kerja</h3>
+                    <table class="table table-striped table-light center">
+                        <thead>
+                          <tr>
+                            <th width="200px">Posisi</th>
+                            <th>Rincian Pekerjaan</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th>Admin Design<br>Toho Wedding Card<br>2012</th>
+                            <td>
+                              <p>Membantu mendesign kartu undangan menggunakan Adobe InDesign, dan Photoshop.<br>Memerikas email masuk.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>Admin Operasional<br>Kinta Tour and Travel<br>2012-2013</th>
+                            <td>
+                              <p>Memeriksa, dan mengarsipkan <i>Letter oF Guarantee </i>, dan <i>Invoice</i> tiket pesawat.
+                              <br>Stok Opname Peralatan Kantor.
+                              </p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>Staff Akutansi<br>PT. Bio Kusuma<br>2013-Sekarang</th>
+                            <td>
+                              <p>Menghitung biaya produksi per batch.
+                                <br>Kontrol Valuasi Bahan Baku, Kemas, dan Produk Jadi.
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table> 
+                  </li>
+                  <li>
+                    <h3 class="text-center">Keahlian</h3>
+                    <table class="table table-striped table-light center">
+                        <thead>
+                          <tr>
+                            <th colspan="2">Keahlian Profesi</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th width="200px">Software</th>
+                            <td>Microsoft Office, Accurate, VB Code, Photoshop</td>
+                          </tr>
+                          <tr>
+                            <th>Lainnya</th>
+                            <td>Penggunaan rumus Excell, Analisa varian Valuasi Accurate, Menghitung Harga Pokok Produksi, Menentukan harga standard pokok, Pembuatan kerangka HTML, Pembuatan CSS, Penguasaan pada JavaScript, Pemanfaatan pada Bootstrap, dan JQuery Plugin.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="table table-striped table-light center">
+                        <thead>
+                          <tr>
+                            <th colspan="2">Keahlian Khusus</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th width="200px">Lainnya</th>
+                            <td>Drawing, Design Chara, English Passive.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                  </li>
+                </ul>
+          </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <!--Contact Us-->
+    
+    <div id="contact" class="container-fluid fadeInStart">
+      <hr/>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h3>Hubungi Saya :</h3>
+          <p>Jika ada pertanyaan, jangan ragu segera hubungi.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <form action="">
+                <div class="form-group">
+                    <label>Nama</label>
+                    <input type="text" class="form-control" placeholder="Nama" required="required">
+                </div>
+                <div class="form-group">
+                  <label>Email</label>
+                  <input type="email" class="form-control" placeholder="Input Email" required="required">
+                </div>
+                <div class="form-group">
+                    <label>Pesan</label>
+                    <textarea class="form-control" cols="30" rows="3" placeholder="Berikan Pesan Anda"></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Kirim</button>
+            </form>
+            </div>
+            <div class="col-md-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.5175372400232!2d106.59365782916512!3d-6.254488666594573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTUnMTYuMiJTIDEwNsKwMzUnMzkuMSJF!5e0!3m2!1sid!2sid!4v1586252033723!5m2!1sid!2sid" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+   
+    <!--Footer-->
+   
+    <div id="footer" class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright &copy; 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
